@@ -419,7 +419,6 @@ void runBenchmark() {
 // Demonstration function
 void demonstrateCorrectness() {
     printf("=== Correctness Demonstration ===\n");
-    
     // Test with a small non-power-of-2 matrix
     int size = 5;
     Matrix* a = createMatrix(size);
